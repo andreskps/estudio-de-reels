@@ -1,0 +1,42 @@
+{
+  "_nota": "Catálogo de modelos y esfuerzos por agente. Se puede editar sin tocar código. id vacío = lo que tenga configurado el CLI. Codex además lee los modelos de tu cuenta desde ~/.codex/models_cache.json.",
+  "claude": {
+    "modelos": [
+      { "id": "", "nombre": "El de tu configuración" },
+      { "id": "opus", "nombre": "Opus — el más capaz" },
+      { "id": "fable", "nombre": "Fable" },
+      { "id": "sonnet", "nombre": "Sonnet — rápido y capaz" },
+      { "id": "haiku", "nombre": "Haiku — el más rápido" }
+    ],
+    "esfuerzos": ["low", "medium", "high", "xhigh", "max"],
+    "flags": { "modelo": ["--model", "{m}"], "esfuerzo": ["--effort", "{e}"] },
+    "confirma_modelo": true
+  },
+  "codex": {
+    "modelos": [{ "id": "", "nombre": "El de tu configuración" }],
+    "modelos_desde": "codex_cache",
+    "esfuerzos": ["low", "medium", "high", "xhigh", "max"],
+    "flags": { "modelo": ["-m", "{m}"], "esfuerzo": ["-c", "model_reasoning_effort={e}"] },
+    "confirma_modelo": false
+  },
+  "gemini": {
+    "modelos": [
+      { "id": "", "nombre": "El de tu configuración" },
+      { "id": "gemini-2.5-pro", "nombre": "Gemini 2.5 Pro" },
+      { "id": "gemini-2.5-flash", "nombre": "Gemini 2.5 Flash" }
+    ],
+    "esfuerzos": [],
+    "flags": { "modelo": ["-m", "{m}"] },
+    "confirma_modelo": false
+  },
+  "nombres_esfuerzo": { "low": "Bajo", "medium": "Medio", "high": "Alto", "xhigh": "Muy alto", "max": "Máximo", "ultra": "Ultra" },
+  "recomendado": {
+    "_todas": {
+      "claude": { "modelo": "opus", "esfuerzo": "high" },
+      "codex": { "modelo": "gpt-6.1-sol", "esfuerzo": "high" },
+      "gemini": { "modelo": "gemini-2.5-pro", "esfuerzo": "" }
+    },
+    "proponer": { "claude": { "modelo": "opus", "esfuerzo": "xhigh" } },
+    "plan": { "claude": { "modelo": "opus", "esfuerzo": "xhigh" } }
+  }
+}

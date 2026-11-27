@@ -1,0 +1,11 @@
+{
+  "activo": "ejemplo",
+  "perfiles": [
+    {
+      "id": "ejemplo",
+      "nombre": "Ejemplo (neutro)",
+      "ruta": "perfiles/ejemplo",
+      "creado": "2026-11-27"
+    }
+  ]
+}

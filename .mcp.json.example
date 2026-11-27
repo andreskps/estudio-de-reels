@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "earshot": {
+      "command": "earshot",
+      "args": [
+        "mcp"
+      ]
+    }
+  }
+}

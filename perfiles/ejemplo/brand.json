@@ -1,0 +1,116 @@
+{
+  "estado": "ejemplo de la base (neutro). Cámbialo con el asistente de marca o /marca",
+  "creador": {
+    "nombre": "Tu nombre",
+    "usuario": "",
+    "plataformas": [
+      "instagram",
+      "tiktok"
+    ],
+    "idioma": "es",
+    "tipo": "marca personal"
+  },
+  "video": {
+    "ancho": 1080,
+    "alto": 1920,
+    "fps": 30
+  },
+  "zona_segura": {
+    "arriba": 220,
+    "abajo": 590,
+    "derecha": 140,
+    "izquierda": 60
+  },
+  "colores": {
+    "principal": "#FFFFFF",
+    "acento": "#FFD43B",
+    "contorno": "#000000",
+    "sombra": "rgba(0,0,0,0.55)",
+    "fondo_tarjeta": "rgba(15,16,22,0.78)"
+  },
+  "fuentes": {
+    "subtitulos": {
+      "familia": "Montserrat",
+      "archivo": null,
+      "peso": 700
+    },
+    "titulos": {
+      "familia": "Montserrat",
+      "archivo": null,
+      "peso": 800
+    }
+  },
+  "subtitulos": {
+    "palabras_por_grupo": [
+      3,
+      7
+    ],
+    "lineas_max": 2,
+    "corte": "por frase o pausa ≥ 150 ms; nunca partir una idea a mitad",
+    "mayusculas": false,
+    "tamano_base_px": 64,
+    "tamano_minimo_px": 52,
+    "ancho_max_px": 800,
+    "centro_y_px": 1240,
+    "contorno_px": 4,
+    "sombra": "0 3px 10px rgba(0,0,0,0.55)",
+    "caja": false,
+    "resaltado": {
+      "modo": "ninguno",
+      "color": null,
+      "escala": 1
+    },
+    "entrada": "fundido suave 0.15 s",
+    "evitar_cara": true
+  },
+  "animaciones": {
+    "permitidas": [
+      "fundido-suave"
+    ],
+    "zoom_punch_in": {
+      "escala": 1.04,
+      "duracion_s": 0.8,
+      "max_por_10s": null,
+      "max_por_video": null,
+      "uso": "en remates o frases a enfatizar; nunca acercar la barbilla a los subtítulos",
+      "curva": "sine.inOut",
+      "salida": "suave (vuelta ≥ 0.6 s) o quedarse acercado hasta el final; nunca de golpe",
+      "origen": "la cara del creador, no el pecho",
+      "duracion_min_s": 0.6,
+      "cantidad": "los que hagan falta para enfatizar; siempre suaves"
+    },
+    "transiciones": "cortes secos; sin wipes ni efectos",
+    "filosofia": "tranquilo y minimalista; sin sobreedición: si dudas, no lo añadas",
+    "rasgos_prohibidos": [
+      "shake",
+      "pop",
+      "rebote",
+      "glitch",
+      "wipe",
+      "flash",
+      "transicion-decorativa"
+    ],
+    "rasgos_con_cuidado": {
+      "texto-grande": "sin textos grandes salvo que el reel lo pida",
+      "zoom": "los zooms que hagan falta, siempre suaves de entrada y salida (≥ 0,6 s)"
+    }
+  },
+  "logo": {
+    "archivo": null,
+    "posicion": "ninguna"
+  },
+  "audio": {
+    "lufs": -14,
+    "true_peak": -1.5,
+    "musica_db_bajo_voz": -20,
+    "musica": "solo si se pide en el reel",
+    "sfx": false
+  },
+  "nunca": [
+    "más de 2 líneas de subtítulo en pantalla",
+    "emojis o stickers",
+    "texto sobre la cara",
+    "transiciones decorativas"
+  ],
+  "version_esquema": 1
+}

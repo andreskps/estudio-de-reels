@@ -1,0 +1,37 @@
+# Secretos y ajustes locales
+.env
+.env.*
+.claude/settings.local.json
+.mcp.json
+
+# Datos de cada creador (no se suben)
+reels/*
+!reels/.gitkeep
+biblioteca/*/*
+!biblioteca/*/.gitkeep
+biblioteca/indice.json
+biblioteca/carpetas.json
+marca/
+perfiles/*
+!perfiles/ejemplo/
+!perfiles/indice.json
+perfiles/ejemplo/historial/
+perfiles/ejemplo/mis-reels/*
+!perfiles/ejemplo/mis-reels/.gitkeep
+perfiles/ejemplo/analisis/
+
+# Estado del Estudio
+estudio/trabajos/*
+!estudio/trabajos/.gitkeep
+estudio/*.log
+estudio/modelos-no-disponibles.json
+estudio/cuentas-pruebas.json
+
+# Skills instaladas aparte
+.claude/skills/real-sfx/
+
+# Sistema
+node_modules/
+__pycache__/
+.DS_Store
+Thumbs.db
